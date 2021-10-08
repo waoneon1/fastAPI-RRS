@@ -1,0 +1,34 @@
+= Relative Ranking System | Backend
+
+== Apa itu RRS
+
+== How to Start
+- Install pyton
+----
+brew install python
+----
+
+- buka di luar repo (contoh di parentnya repo):
+----
+source python-venv/env/bin/activate
+----
+
+- upgrade pip
+----
+python3 -m pip install --upgrade pip
+----
+
+- Install pipenv
+----
+pip install pipenv
+----
+
+- Insatall Dependency
+----
+pipenv install fastapi uvicorn pydantic pymongo --python=3.9
+----
+
+- Start Server
+----
+uvicorn main:app --reload  
+----
